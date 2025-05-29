@@ -75,7 +75,7 @@ const LayoutClient = ({
                     <footer className="w-full">
                         {proton ? (
                             <Modal
-                                trigger={<Button variant="destructive" className="w-full">Log Out</Button>}
+                                trigger={<Button variant="destructive" className="w-full cursor-pointer">Log Out</Button>}
                                 title="Log Out"
                                 description="Are you sure you want to log out? You will be redirected to the login page."
                                 content={
