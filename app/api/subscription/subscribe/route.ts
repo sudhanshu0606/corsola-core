@@ -105,7 +105,7 @@ export async function POST(request: Request) {
         }
 
         const subscription = await Subscription.findOneAndUpdate(
-            { stock },
+            { symbol: stock['1. symbol'] },
             {
                 $push: {
                     subscribers: {
